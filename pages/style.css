@@ -54,23 +54,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .title {
+.title {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+}
 
-  .btn-controls {
+.btn-controls {
     border: none;
     border-radius: 10px;
     height: 30px;
     width: 130px;
     background-color: #00FA9A;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  }
+}
 
-  .btn-controls:hover {
+.btn-controls:hover {
       cursor: pointer;
       height: 40px;
       width: 140px;   
-  }
+}
+
+.container-games {
+    background-color: #363636;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 400px;
+    height: auto;
+}
